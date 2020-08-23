@@ -4,6 +4,8 @@
   "env": {
     "ALLOWED_HOSTS": {
       "description": "Django ALLOWED_HOSTS setting, e.g.: .django-react-boilerplate.herokuapp.com"
+    "ALLOWED_HOSTS" =  ['localhost', '127.0.0.1', '[::1]']
+     "ALLOWED_HOSTS" = ['.herokuapp.com']
     },
     "DISABLE_COLLECTSTATIC": {
       "description": "Disables Heroku collectstatic",
