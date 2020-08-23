@@ -3,7 +3,7 @@
   "description": "{{project_name|title}} Heroku app.",
   "env": {
     "ALLOWED_HOSTS": {
-      "description": "Django ALLOWED_HOSTS setting, e.g.: .appname.herokuapp.com"
+      "description": "Django ALLOWED_HOSTS setting, e.g.: .django-react-boilerplate.herokuapp.com"
     },
     "DISABLE_COLLECTSTATIC": {
       "description": "Disables Heroku collectstatic",
